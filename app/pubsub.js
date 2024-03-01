@@ -42,7 +42,7 @@ const CHANNELS = {
               inputAddress: this.wallet.publicKey
             })) {
               this.transactionPool.setTransaction(parsedMessage);
-            };
+            }
             break;
         default:
           return;
